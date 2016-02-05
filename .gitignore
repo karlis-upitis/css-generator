@@ -1,0 +1,6 @@
+syntax: glob
+.idea/**
+node_modules/**
+_tmp/**
+.sass-cache/**
+.gulp

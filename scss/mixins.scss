@@ -1,0 +1,33 @@
+// -------------------------------------
+//   Edited layout container
+// -------------------------------------
+@mixin container(){
+	// background-color: red;
+	transition: max-width .2s ease-in-out;
+	@include media($xs) {
+		@include outer-container(90%);
+	}
+	@include media($s) {
+		@include outer-container(92%);
+	}
+	@include media($m) {
+		@include outer-container(95%);
+	}
+	@include media($l) {
+		// @include outer-container(960px);
+	}
+	@include media($xl) {
+		@include outer-container(960px);
+	}
+
+}
+
+// -------------------------------------
+//   Ellipsis functionality
+// -------------------------------------
+@mixin ellipsis (){
+	display: inline-block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}

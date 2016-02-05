@@ -1,0 +1,48 @@
+// -------------------------------------
+//   font settings
+// -------------------------------------
+$font__primary: 'Roboto';
+$font__folder: '../fonts/'; //relative to .css file
+
+// -------------------------------------
+//   Local fonts
+// -------------------------------------
+@font-face {
+    font-family: 'Roboto';
+    src: url($font__folder+'roboto-regular-webfont.woff2') format('woff2'),
+         url($font__folder+'roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url($font__folder+'roboto-bold-webfont.woff2') format('woff2'),
+         url($font__folder+'roboto-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url($font__folder+'roboto-italic-webfont.woff2') format('woff2'),
+         url($font__folder+'roboto-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url($font__folder+'roboto-medium-webfont.woff2') format('woff2'),
+         url($font__folder+'roboto-medium-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url($font__folder+'roboto-mediumitalic-webfont.woff2') format('woff2'),
+         url($font__folder+'roboto-mediumitalic-webfont.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}

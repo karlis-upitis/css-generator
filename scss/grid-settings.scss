@@ -1,0 +1,38 @@
+// -------------------------------------
+//	Media query settings
+// -------------------------------------
+$xs: new-breakpoint(min-width em(280) 4);
+$s: new-breakpoint(min-width em(481) 6);
+$m: new-breakpoint(min-width em(641) 8);
+$l: new-breakpoint(min-width em(733) 12);
+$xl: new-breakpoint(min-width em(990) 12);
+
+// -------------------------------------
+//	Neat-Bourbon settings
+// -------------------------------------
+$column: 90px;
+$gutter: 8px;
+// $grid-columns: 12;
+$max-width: em(960);
+
+
+$visual-grid: true;
+$visual-grid-color: firebrick;
+$visual-grid-index: front;
+$visual-grid-opacity: 0.1;
+
+// -------------------------------------
+//	How to use
+// -------------------------------------
+/*
+
+@include media($xs) {
+}
+@include media($s) {
+}
+@include media($m) {
+}
+@include media($l) {
+}
+
+*/
